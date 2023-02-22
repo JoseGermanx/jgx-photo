@@ -4,7 +4,7 @@ export const projects = [
       subtitle: "Bodas, eventos",
       description:
         "Nos apasiona capturar los momentos más importantes de la vida, desde bodas y aniversarios hasta los primeros pasos de un bebé.",
-      image: "../../public/IMG_9609.jpg",
+      image: "../public/IMG_9609.jpg",
       link: "#",
     },
     {
