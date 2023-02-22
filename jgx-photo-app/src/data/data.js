@@ -4,7 +4,7 @@ export const projects = [
       subtitle: "Bodas, eventos",
       description:
         "Nos apasiona capturar los momentos más importantes de la vida, desde bodas y aniversarios hasta los primeros pasos de un bebé.",
-      image: "../../assets/img/IMG_9609.jpg",
+      image: "https://res.cloudinary.com/dh6ipg8bj/image/upload/v1677073562/jgx-photo/IMG_9609_ppbzos.jpg",
       link: "#",
     },
     {
@@ -12,7 +12,7 @@ export const projects = [
       subtitle: "Retrato, familiar",
       description:
         "Cada una de nuestras imágenes cuenta una historia y estamos comprometidos en capturar los momentos más significativos en la vida de cada uno de nuestros clientes.",
-      image: "src/assets/img/IMG_9929.jpg",
+      image: "https://res.cloudinary.com/dh6ipg8bj/image/upload/v1677073568/jgx-photo/IMG_9929_nrmued.jpg",
       link: "#",
     },
     {
@@ -20,7 +20,7 @@ export const projects = [
       subtitle: "Gastronomía, restaurantes",
       description:
         "Nos enorgullece ofrecer una amplia gama de servicios personalizados para cada uno de nuestros clientes, y estamos seguros de que encontrará justo lo que necesita para satisfacer sus necesidades fotográficas.",
-      image: "src/assets/img/IMG_9406.jpg",
+      image: "https://res.cloudinary.com/dh6ipg8bj/image/upload/v1677073556/jgx-photo/IMG_9406_kea20w.jpg",
       link: "#",
     },
     {
@@ -28,7 +28,7 @@ export const projects = [
       subtitle: "Producto, ventas, catálogos",
       description:
         "Nos enorgullece ofrecer una amplia gama de servicios personalizados para cada uno de nuestros clientes, y estamos seguros de que encontrará justo lo que necesita para satisfacer sus necesidades fotográficas.",
-      image: "src/assets/img/IMG_8256.jpg",
+      image: "https://res.cloudinary.com/dh6ipg8bj/image/upload/v1677073571/jgx-photo/IMG_8256_eaifyr.jpg",
       link: "#",
     }
   ];
