@@ -1,5 +1,6 @@
 import React from 'react'
 import { ArrowRightIcon } from "@heroicons/react/solid/index.js";
+import logo from '../../assets/img/logo_jg.png'
 
 const NavBar = () => {
   return (
@@ -8,7 +9,7 @@ const NavBar = () => {
     <img
         className="object-cover object-center rounded w-10"
         alt="logo"
-        src="../../src/assets/img/logo_jg.png "
+        src={logo}
     />
       <a className="title-font font-medium text-white mb-4 md:mb-0">
         <a href="#about" className="ml-3 text-xl">
