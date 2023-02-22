@@ -8,7 +8,7 @@ const NavBar = () => {
     <img
         className="object-cover object-center rounded w-10"
         alt="logo"
-        src="./src/assets/img/logo_jg.png "
+        src="../src/assets/img/logo_jg.png "
     />
       <a className="title-font font-medium text-white mb-4 md:mb-0">
         <a href="#about" className="ml-3 text-xl">
