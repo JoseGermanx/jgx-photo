@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import imgFront from '../../assets/img/front_img.jpg';
 
 const About = () => {
   return (
@@ -29,7 +30,7 @@ const About = () => {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="src/assets/img/front_img.jpg"
+            src={imgFront}
           />
         </div>
       </div>
