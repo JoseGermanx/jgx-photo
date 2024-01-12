@@ -13,8 +13,8 @@ function App() {
     <main className="text-gray-400 bg-black body-font p-0">
       <NavBar />
       <About />
-      <Projects />
       <Skills />
+      <Projects />
       <Testimonials />
       <Contact />
     </main>
