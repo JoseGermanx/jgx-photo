@@ -30,14 +30,14 @@ const NavBar = () => {
       <a
         href="#contact"
         className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-        ¡Contrátame!
+        ¡Contrata Servicios!
       </a>
         <a
         href="https://shop.jgx.agency"
         className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
         target="_blank"  
         >
-        ¡E-Shop!
+        ¡E-Shop! - Tienda Virtual
         <ArrowRightIcon className="w-4 h-4 ml-1" />
       </a>
     </div>
