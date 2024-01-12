@@ -11,7 +11,7 @@ const About = () => {
             <br className="hidden lg:inline-block" /> profesional.
           </h1>
           <p className="mb-8 leading-relaxed">
-          ¿Estás buscando fotografía y video profesional? ¡Has llegado al lugar correcto! 
+          ¡Transformando ideas en imágenes y marcas en historias! 
           </p>
           <div className="flex justify-center">
             <a
