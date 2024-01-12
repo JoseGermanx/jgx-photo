@@ -121,7 +121,7 @@ const Contact = () => {
               htmlFor="message"
               className="leading-7 text-sm text-gray-400"
             >
-              Mensaje
+              Danos un poco mas de detalles sobre tu requerimiento
             </label>
             <textarea
               id="message"
