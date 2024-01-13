@@ -43,7 +43,6 @@ const About = () => {
           </div>
           <div className="flex align-middle mt-2">
             <p className="mt-2 justify-center text-l">SEO - DESARROLLO WEB - MARKETING - FOTOGRAFIA</p>
-            
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
