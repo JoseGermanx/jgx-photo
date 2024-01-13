@@ -1,14 +1,30 @@
 import React from 'react';
 import imgFront from '../../assets/img/front_img.jpg';
+import Typed from 'typed.js';
 
 const About = () => {
+  const el = React.useRef(null);
+
+  React.useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ['<i>Marketing Digital </i>', '&amp; Fotografía profesional. '],
+      typeSpeed: 70,
+      loop: true
+    });
+    
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, []);
+
+ 
   return (
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Marketing digital y fotografía
-            <br className="hidden lg:inline-block" /> profesional.
+          <span ref={el} />
           </h1>
           <p className="mb-8 leading-relaxed">
           ¡Transformando ideas en imágenes y marcas en historias! 
@@ -24,6 +40,10 @@ const About = () => {
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
               Trabajos anteriores
             </a>
+          </div>
+          <div className="flex align-middle mt-2">
+            <p className="mt-2 justify-center text-l">SEO - DESARROLLO WEB - MARKETING - FOTOGRAFIA</p>
+            
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
