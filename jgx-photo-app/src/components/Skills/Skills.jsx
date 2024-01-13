@@ -12,7 +12,7 @@ const Skills = () => {
             Servicios que ofrecemos
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          Con más de 10 años de experiencia en social media y marketing digital. Desde la creación de aplicaciones y estrategias de marketing digital, Ofrezco soluciones a medida. Nuestra experiencia en mercados como Venezuela, España, Chile, Estados Unidos, Ecuador y Argentina son evidencia de mi visión global en la industria. Ya sea potenciando tu presencia online con desarrollo web de vanguardia o creando estrategias de marketing digital efectivas, confía en mí para llevar tu empresa o idea al siguiente nivel con innovación y excelencia.
+          Con más de 10 años de experiencia en social media y marketing digital. Desde la creación de aplicaciones y estrategias de marketing digital. Ofrezco soluciones a medida. Nuestra experiencia en mercados como Venezuela, España, Chile, Estados Unidos, Ecuador y Argentina son evidencia de mi visión global en la industria. Ya sea potenciando tu presencia online con desarrollo web de vanguardia o creando estrategias de marketing digital efectivas, confía en nosotros para llevar tu empresa o idea al siguiente nivel con innovación y excelencia.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
