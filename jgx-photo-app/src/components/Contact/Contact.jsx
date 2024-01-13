@@ -39,7 +39,7 @@ const Contact = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26406.204389359908!2d-70.68787868384035!3d-34.17765582468503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967b5445dba7606f%3A0xa08393a56260f5df!2sMachal%C3%AD%2C%20O&#39;Higgins!5e0!3m2!1ses!2scl!4v1682540491847!5m2!1ses!2scl"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6">
+            <div className="lg:w-2/3 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 DIRECCIÓN
               </h2>
@@ -52,13 +52,11 @@ const Contact = () => {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 CORREO ELECTRÓNICO
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
-                jgermanmm@gmail.com
+              <a className="text-indigo-400 leading-relaxed"
+              href="mailto:jgxagency@betacode.cl" 
+              >
+              jgxagency@betacode.cl
               </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                NÚMERO DE TELÉFONO
-              </h2>
-              <p className="leading-relaxed">123-456-7890</p>
             </div>
           </div>
         </div>
