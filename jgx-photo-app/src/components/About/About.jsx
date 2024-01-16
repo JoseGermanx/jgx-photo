@@ -1,5 +1,5 @@
 import React from 'react';
-import imgFront from '../../assets/img/front_img.jpg';
+import imgFront from '../../assets/img/about.jpg';
 import Typed from 'typed.js';
 
 const About = () => {
@@ -7,7 +7,7 @@ const About = () => {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['<i>Marketing Digital </i>', '&amp; Fotografía profesional. '],
+      strings: ['<i>Impulsamos tu negocio</i>', 'al próximo nivel. '],
       typeSpeed: 70,
       loop: true
     });
@@ -23,6 +23,7 @@ const About = () => {
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h2 className='text-xl mb-4'>Impulsamos tu crecimiento con estrategias innovadoras y colaborativas. ¡Si tu ganas, nosotros también!"</h2>
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
           <span ref={el} />
           </h1>
