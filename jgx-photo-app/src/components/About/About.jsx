@@ -27,7 +27,7 @@ const About = () => {
           <span ref={el} />
           </h1>
           <p className="mb-8 leading-relaxed">
-          ¡Transformando ideas en imágenes y marcas en historias! 
+          ¡Crecemos junto a ti! 
           </p>
           <div className="flex justify-center">
             <a
