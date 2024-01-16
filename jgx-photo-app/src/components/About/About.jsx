@@ -7,7 +7,7 @@ const About = () => {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['<i>Impulsamos tu negocio</i>', 'al próximo nivel. '],
+      strings: ['<i>Impulsamos tu negocio con:</i>', 'Marketing digital, ', 'Growth hacking', 'Mejoras de procesos de ventas', 'Campañas en redes sociales'],
       typeSpeed: 70,
       loop: true
     });
