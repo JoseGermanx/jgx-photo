@@ -6,10 +6,11 @@ const Contact = () => {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
+  const [service, setService] = React.useState("");
 
   function handleSubmit(e) {
     e.preventDefault();
-if (!name || !email || !message) {
+if (!name || !email || !message || !service) {
   alert("Todos los campos son obligatorios");
   return;
 }
@@ -112,7 +113,7 @@ if (!name || !email || !message) {
               id="service"
               name="service"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              onChange={(e) => setMessage(e.target.value)}
+              onChange={(e) => setService(e.target.value)}
             >
               <option defaultValue>Selecciona un servicio</option>
               <option value="fotografia">Growth Partner</option>
