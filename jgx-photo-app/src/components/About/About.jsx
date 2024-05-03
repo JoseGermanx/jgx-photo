@@ -36,11 +36,11 @@ const About = () => {
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
               Trabaja con nosotros
             </a>
-            <a
+            {/* <<a
               href="#projects"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
               Trabajos anteriores
-            </a>
+            </a>> */}
           </div>
           <div className="flex align-middle mt-2">
             <p className="mt-2 justify-center text-l">SEO - DESARROLLO WEB - MARKETING - FOTOGRAFIA</p>
