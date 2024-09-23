@@ -10,6 +10,11 @@ const Testimonials = () => {
         <h2 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
           Nuestros clientes
         </h2>
+        <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+        <img src="https://res.cloudinary.com/dh6ipg8bj/image/upload/v1727121067/logo_dan_painting_group_bg_289_o7fbsn.png" alt="Client DAN Painting Group" className="w-25 backdrop-grayscale justify-center" />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          voluptatem, quod, quia, quae quidem quibusdam
+        </p>
       </div>
     </div>
   </section>
