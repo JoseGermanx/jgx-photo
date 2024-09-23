@@ -8,9 +8,9 @@ const Skills = () => {
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           <ChipIcon className="w-10 inline-block mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+          <h2 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Servicios que ofrecemos
-          </h1>
+          </h2>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
           Con más de 10 años de experiencia en social media y marketing digital, ofrecemos soluciones personalizadas que impulsan resultados. Nos especializamos en la creación de aplicaciones y estrategias digitales que destacan en mercados como Venezuela, España, Chile, Estados Unidos, Ecuador y Argentina, reflejando nuestra visión global. Ya sea optimizando tu presencia online con desarrollo web de última generación o implementando estrategias de marketing digital efectivas, somos tu aliado para llevar tu empresa o proyecto al siguiente nivel, siempre con innovación y excelencia. Confía en nosotros para transformar tu visión en éxito.
           </p>
@@ -27,6 +27,10 @@ const Skills = () => {
             </div>
           ))}
         </div>
+        <h2 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4 mt-7">
+            Escucha el podcast sobre tecnología e internet
+          </h2>
+        <iframe style={{borderRadius:"12px"}} src="https://open.spotify.com/embed/show/2N1bg2pyoacAZlBVZdTzRq?utm_source=generator" width="100%" height="352" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       </div>
     </section>
   );

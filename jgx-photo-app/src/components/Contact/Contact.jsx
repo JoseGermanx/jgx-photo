@@ -45,18 +45,18 @@ if (!name || !email || !message || !service) {
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-2/3 px-6">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+              <h3 className="title-font font-semibold text-white tracking-widest text-xs">
                 DIRECCIÓN
-              </h2>
+              </h3>
               <p className="mt-1">
                 Machalí <br />
                 Chile 2190000
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+              <h3 className="title-font font-semibold text-white tracking-widest text-xs">
                 CORREO ELECTRÓNICO
-              </h2>
+              </h3>
               <a className="text-indigo-400 leading-relaxed"
               href="mailto:jgxagency@betacode.cl" 
               >
@@ -71,9 +71,9 @@ if (!name || !email || !message || !service) {
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+          <h3 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             ¡Contrata servicios!
-          </h2>
+          </h3>
           <p className="leading-relaxed mb-5">
             Utiliza el siguiente formulario y solicita alguno de nuestros
             servicios:

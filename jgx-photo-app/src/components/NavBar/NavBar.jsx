@@ -23,9 +23,9 @@ const NavBar = () => {
         <a href="#skills" className="mr-5 hover:text-white">
           Servicios
         </a>
-        {/* <a href="#testimonials" className="mr-5 hover:text-white">
-          Testimonios
-        </a> */}
+        <a href="https://open.spotify.com/show/2N1bg2pyoacAZlBVZdTzRq?si=7376fcb3f5b74120" className="mr-5 hover:text-white">
+          El "{"Código Beta"}" podcast
+        </a>
       </nav>
       <a
         href="#contact"
