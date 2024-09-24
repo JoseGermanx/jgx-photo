@@ -1,8 +1,5 @@
 {
-    "routes": [
-      { "src": "/contacto", "dest": "/" },
-      { "src": "/fotografia-prtofesional", "dest": "/" },
-      { "src": "/servicios", "dest": "/" },
-      { "src": "/", "dest": "/" }
-    ]
-    }
+  "routes": [
+    { "src": "/[^.]+", "dest": "/" }
+  ]
+}
