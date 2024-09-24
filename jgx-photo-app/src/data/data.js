@@ -38,10 +38,23 @@ export const projects = [
 ];
 
 export const skills = [
-  "Fotografía profesional",
-  "Videos Shorts para Redes Sociales",
-  "Diseño Web y Desarrollo de páginas web",
-  "Auditoría SEO",
-  "Campañas de Marketing en redes sociales",
-  "Campañas de Email Marketing",
+  {skill: "Fotografía profesional",
+   link: "/fotografia-profesional"
+  },
+  {skill: "Diseño Web y Desarrollo de páginas web",
+   link: "#"
+  },
+  {skill: "Auditoría SEO",
+   link: "#"
+  },
+  {skill: "Videos de Productos",
+   link: "#"
+  },
+  {skill: "Campañas de Email Marketing",
+   link: "#"
+  },
+  {
+    skill: "Video Shorts para Redes Sociales",
+    link: "#"
+  }
 ];
