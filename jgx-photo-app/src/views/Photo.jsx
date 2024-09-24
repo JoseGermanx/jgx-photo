@@ -34,7 +34,7 @@ export default function Photo() {
               />
               </div>
               <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition duration-300 flex items-center justify-center">
-                <p className="text-white text-lg opacity-0 group-hover:opacity-100">Trabajo previo</p>
+                <p className="text-white text-lg opacity-0 group-hover:opacity-100">JGx Photo</p>
               </div>
             </div>
           ))}
