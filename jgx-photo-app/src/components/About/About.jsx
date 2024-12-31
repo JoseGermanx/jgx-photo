@@ -25,7 +25,7 @@ const About = () => {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <div className=' mb-10'>
         <p className="title-font sm:text-4xl text-3xl font-medium text-white mb-5">Descarga este 
-          <span className='text-yellow-600'><a href='https://app.jgx.agency/ebookgratis'> Ebook GRATIS </a> </span>y descubre Por Qué Necesitas un Sitio Web, ahora!
+          <span className='text-yellow-600'><a href='https://jgxagency.systeme.io/ebookgratis'> Ebook GRATIS </a> </span>y descubre Por Qué Necesitas un Sitio Web, ahora!
           </p>
           <button className='bg-yellow-300 text-black p-4 rounded-md hover:bg-amber-700 hover:text-white '><a href='https://app.jgx.agency/ebookgratis'>Descargar E-book GRATIS</a></button>
           </div>
