@@ -12,6 +12,7 @@ import Home from './views/Home';
 import Photo from './views/Photo';
 import Contact from './components/Contact/Contact';
 import ServicesView from './views/ServicesView';
+import ServicioSEO from './views/Seo';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
         path: "/servicios",
         element: <ServicesView />,
       },
+      {
+        path: "/servicios/seo",
+        element: <ServicioSEO />
+      }
     ],
   },
   {

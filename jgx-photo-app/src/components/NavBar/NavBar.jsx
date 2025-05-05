@@ -1,50 +1,62 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { ArrowRightIcon } from "@heroicons/react/solid/index.js";
-import logo from '../../assets/img/logo_jg.png'
+import logo from '../../assets/img/logo_jg.png';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
-  return (
-    <header className="bg-zinc-800 text-white md:sticky top-0 z-10">
-    <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-    <img
-        className="object-cover object-center rounded w-10"
-        alt="logo"
-        src={logo}
-    />
-      <Link className="title-font font-medium text-white mb-4 md:mb-0 ml-3 text-xl" to={"/"}>
-          SEO y Marketing Digital en Chile
-      </Link>
-      <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-        {/* <a href="#projects" className="mr-5 hover:text-white">
-          Trabajos anteriores
-        </a> */}
-        <Link to="/servicios" className="mr-5 hover:text-white">
-          Servicios
-        </Link>
-        {/* <Link to={"/fotografia-profesional"} className="mr-5 hover:text-white">
-          Fotografía profesional
-        </Link> */}
-        <Link to={"https://open.spotify.com/show/2N1bg2pyoacAZlBVZdTzRq?si=7376fcb3f5b74120"} className="mr-5 hover:text-white" target='_blank'>
-          Podcast de Marketing Digital
-        </Link>
-      </nav>
-      <Link
-        to="/contacto"
-        className="inline-flex items-center bg-blue-700 text-white border-0 p-2 focus:outline-none hover:bg-blue-900 rounded text-xl mt-4 md:mt-0">
-        ¡Hablemos!
-      </Link>
-        {/* <a
-        href="https://shop.jgx.agency"
-        className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
-        target="_blank"  
-        >
-        ¡E-Shop! - Tienda Virtual
-        <ArrowRightIcon className="w-4 h-4 ml-1" />
-      </a> */}
-    </div>
-  </header>
-  )
-}
+  const [dropdownOpen, setDropdownOpen] = useState(false);
 
-export default NavBar
+  return (
+    <header className="bg-zinc-800 text-white md:sticky top-0 z-10"
+    >
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <div className='flex' onMouseOver={() => setDropdownOpen(false)}>
+        <img
+          className="object-cover object-center rounded w-10"
+          alt="logo"
+          src={logo}
+        />
+        <Link className="title-font font-medium text-white mb-4 md:mb-0 ml-3 text-xl" to={"/"}>
+          SEO y Marketing Digital en Chile
+        </Link>
+        </div>
+        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
+          <div
+            className="relative"
+            onMouseEnter={() => setDropdownOpen(true)}
+          >
+            <Link to="/servicios" className="mr-5 hover:text-white">
+              Servicios
+            </Link>
+            {dropdownOpen && (
+              <div
+              className="absolute bg-zinc-700 text-white rounded shadow-lg mt-2 w-48"
+                onMouseOver={() => setDropdownOpen(true)}
+                onMouseOut={() => setDropdownOpen(false)}
+              >
+                <ul className="py-2">
+                  <li>
+                    <Link to="/servicios/seo" className="block px-4 py-2 hover:bg-zinc-600">
+                      SEO
+                    </Link>
+                  </li>
+                  
+                </ul>
+              </div>
+            )}
+          </div>
+          <Link to={"https://open.spotify.com/show/2N1bg2pyoacAZlBVZdTzRq?si=7376fcb3f5b74120"} className="mr-5 hover:text-white" target='_blank'>
+            Podcast de Marketing Digital
+          </Link>
+        </nav>
+        <Link
+          to="/contacto"
+          className="inline-flex items-center bg-blue-700 text-white border-0 p-2 focus:outline-none hover:bg-blue-900 rounded text-xl mt-4 md:mt-0">
+          ¡Hablemos!
+        </Link>
+      </div>
+    </header>
+  );
+};
+
+export default NavBar;
