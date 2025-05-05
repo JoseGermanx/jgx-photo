@@ -13,7 +13,7 @@ const NavBar = () => {
         src={logo}
     />
       <Link className="title-font font-medium text-white mb-4 md:mb-0 ml-3 text-xl" to={"/"}>
-          JGx Agency | Growth Partner
+          SEO y Marketing Digital en Chile
       </Link>
       <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
         {/* <a href="#projects" className="mr-5 hover:text-white">
@@ -31,8 +31,8 @@ const NavBar = () => {
       </nav>
       <Link
         to="/contacto"
-        className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-        ¡Contrata nuestros Servicios!
+        className="inline-flex items-center bg-blue-700 text-white border-0 p-2 focus:outline-none hover:bg-blue-900 rounded text-xl mt-4 md:mt-0">
+        ¡Hablemos!
       </Link>
         {/* <a
         href="https://shop.jgx.agency"
