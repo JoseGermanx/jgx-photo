@@ -12,7 +12,7 @@ import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font p-0">
+    <main className="text-zinc-900 bg-white body-font p-0">
       <NavBar />
       <Outlet />
       <Footer />

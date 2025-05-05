@@ -7,7 +7,7 @@ const Testimonials = () => {
     <div className="container px-5 py-10 mx-auto bg-white">
       <div className="text-center mb-20">
         <LinkIcon className="w-10 inline-block mb-4" />
-        <h2 className="sm:text-6xl text-3xl font-medium title-font text-yellow-700 mb-4">
+        <h2 className="sm:text-6xl text-2xl font-medium title-font text-zinc-900 mb-4">
           Clientes
         </h2>
         <a className="mx-7" href='https://danpaintinggroup.com/' target='_blank'>

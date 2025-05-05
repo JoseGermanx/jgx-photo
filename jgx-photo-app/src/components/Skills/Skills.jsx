@@ -9,7 +9,7 @@ const Skills = () => {
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           <ChipIcon className="w-10 inline-block mb-4" />
-          <h2 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+          <h2 className="sm:text-4xl text-3xl font-medium title-font text-zinc-900 mb-4">
             Servicios que ofrecemos
           </h2>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
@@ -31,7 +31,7 @@ const Skills = () => {
             </div>
           ))}
         </div>
-        <h2 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4 mt-7">
+        <h2 className="sm:text-4xl text-3xl font-medium title-font text-zinc-900 mb-4 mt-7">
             Escucha el podcast sobre tecnología e internet
           </h2>
         <iframe style={{borderRadius:"12px"}} src="https://open.spotify.com/embed/show/2N1bg2pyoacAZlBVZdTzRq?utm_source=generator" width="100%" height="352" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
