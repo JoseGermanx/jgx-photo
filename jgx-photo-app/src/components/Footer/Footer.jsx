@@ -19,9 +19,9 @@ const Footer = () => {
     </p>
     <p>BetaCode Servicios Digitales e Informaticos E.I.R.L</p>
     </div>
-    <div>
+    {/* <div>
       <img src={paymentMethod} style={{width: "200px"}} />
-    </div>
+    </div> */}
     </>
   );
 };
