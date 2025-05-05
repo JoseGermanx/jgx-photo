@@ -22,11 +22,11 @@ const NavBar = () => {
         <Link to="/servicios" className="mr-5 hover:text-white">
           Servicios
         </Link>
-        <Link to={"/fotografia-profesional"} className="mr-5 hover:text-white">
+        {/* <Link to={"/fotografia-profesional"} className="mr-5 hover:text-white">
           Fotografía profesional
-        </Link>
+        </Link> */}
         <Link to={"https://open.spotify.com/show/2N1bg2pyoacAZlBVZdTzRq?si=7376fcb3f5b74120"} className="mr-5 hover:text-white" target='_blank'>
-          El "{"Código Beta"}" podcast
+          Podcast de Marketing Digital
         </Link>
       </nav>
       <Link
