@@ -1,6 +1,19 @@
+import usePageSEO from "../hooks/usePageSEO";
 
 
-const ServicioSEO = () => (
+const ServicioSEO = () => {
+    usePageSEO({
+        title: "Servicios de SEO - Posicionamiento en Buscadores",
+        description:
+          "Somos una agencia digital especializada en marketing digital y SEO. Nuestro equipo de expertos en marketing digital y SEO te ayudará a alcanzar tus objetivos en internet. Contáctanos para obtener más información.",
+        keywords: ["Marketing", "SEO"],
+        ogTitle: "Servicios de SEO - Posicionamiento en Buscadores",
+        ogDescription: "Somos una agencia digital especializada en marketing digital y SEO. Nuestro equipo de expertos en marketing digital y SEO te ayudará a alcanzar tus objetivos en internet. Contáctanos para obtener más información.",
+        ogImage: "https://res.cloudinary.com/dh6ipg8bj/image/upload/v1727211451/Purple_Black_Modern_Marketing_Plan_Presentation_eabtxb.png",
+        ogUrl: "https://www.jgx.agency/",
+      });
+    
+    return (
     <section className="bg-white px-6 mb-4">
         <img src="https://res.cloudinary.com/dh6ipg8bj/image/upload/v1746479857/SEO_yhxk3n.png" alt="SEO" className="left-0 min-w-full" />
 
@@ -44,6 +57,7 @@ const ServicioSEO = () => (
       </div>
     </section>
   );
+}
 
   export default ServicioSEO;
 
