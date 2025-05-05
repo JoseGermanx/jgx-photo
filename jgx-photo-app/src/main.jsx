@@ -10,9 +10,9 @@ import ErrorPage from "./error-page";
 import { Analytics } from "@vercel/analytics/react"
 import Home from './views/Home';
 import Photo from './views/Photo';
-import Contact from './components/Contact/Contact';
 import ServicesView from './views/ServicesView';
 import ServicioSEO from './views/Seo';
+import ContactView from './views/ContactView';
 
 const router = createBrowserRouter([
   {
@@ -30,7 +30,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/contacto",
-        element: <Contact />,
+        element: <ContactView />,
       },
       {
         path: "/servicios",
