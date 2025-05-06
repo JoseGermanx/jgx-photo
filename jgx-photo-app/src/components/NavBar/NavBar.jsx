@@ -45,9 +45,6 @@ const NavBar = () => {
               </div>
             )}
           </div>
-          <Link to={"https://open.spotify.com/show/2N1bg2pyoacAZlBVZdTzRq?si=7376fcb3f5b74120"} className="mr-5 hover:text-white" target='_blank'>
-            Podcast de Marketing Digital
-          </Link>
         </nav>
         <Link
           to="/contacto"
