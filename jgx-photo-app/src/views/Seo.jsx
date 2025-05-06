@@ -14,7 +14,7 @@ const ServicioSEO = () => {
       });
     
     return (
-    <section className="bg-white px-6 mb-4">
+    <section className="bg-white mb-4">
         <img src="https://res.cloudinary.com/dh6ipg8bj/image/upload/v1746479857/SEO_yhxk3n.png" alt="SEO" className="left-0 min-w-full" />
 
       <div className="max-w-5xl mx-auto text-center mt-4">
