@@ -7,9 +7,9 @@ const About = () => {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Auditoría SEO', 'Embudos de ventas', 'Campañas en redes sociales', 'Posicionamiento en buscadores'],
+      strings: ['Auditoría SEO', 'Embudos de ventas', 'Landing pages', 'Posicionamiento Web'],
       typeSpeed: 70,
-      loop: true
+      loop: true 
     });
     
     return () => {
@@ -24,9 +24,8 @@ const About = () => {
       <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <h1 className="title-font sm:text-6xl text-3xl mb-4 font-bold text-zinc-900">
-        Marketing digital que impulsa tu negocio:
-        <br />
-        <span ref={el} />
+        Marketing digital que impulsa tu negocio.
+        
         </h1>
         {/* <div className=' mb-10'>
         <p className="title-font sm:text-4xl text-3xl font-medium text-white mb-5">Descarga este 
@@ -51,12 +50,10 @@ const About = () => {
               Trabajos anteriores
             </a>> */}
           </div>
-          <div className="flex align-middle mt-2">
-            <p className="mt-2 justify-center text-l">SEO - DESARROLLO WEB - MARKETING - CREACIÓN DE CONTENIDO</p>
-          </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <video autoPlay loop muted playsInline className="object-cover object-center rounded">
+        <span className=" font-extrabold text-5xl text-zinc-500" ref={el} />
+          <video autoPlay loop muted playsInline className="object-cover object-center rounded mt-4">
             <source src="https://res.cloudinary.com/dh6ipg8bj/video/upload/v1727117832/Negro_y_Blanco_Comercial_Inmobiliaria_Video_de_Presentaci%C3%B3n_rmnoo2.mp4" type="video/mp4" />
           </video>
         </div>
