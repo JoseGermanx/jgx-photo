@@ -45,7 +45,7 @@ export const skills = [
    link: "#"
   },
   {skill: "Auditoría SEO",
-   link: "#"
+   link: "/servicios/seo"
   },
   {skill: "Videos de Productos",
    link: "#"
