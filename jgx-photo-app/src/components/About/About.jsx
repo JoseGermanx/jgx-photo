@@ -7,7 +7,7 @@ const About = () => {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Auditoría SEO', 'Embudos de ventas', 'Landing pages', 'Posicionamiento Web'],
+      strings: ['Auditoría SEO', 'Embudos de ventas', 'Landing pages', 'Google Ads'],
       typeSpeed: 70,
       loop: true 
     });

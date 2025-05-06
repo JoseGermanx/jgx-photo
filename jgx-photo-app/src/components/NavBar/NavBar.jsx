@@ -12,7 +12,7 @@ const NavBar = () => {
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <div className='flex' onMouseOver={() => setDropdownOpen(false)}>
         <img
-          className="object-cover object-center rounded w-10"
+          className="object-cover object-center w-4"
           alt="logo"
           src={logo}
         />
