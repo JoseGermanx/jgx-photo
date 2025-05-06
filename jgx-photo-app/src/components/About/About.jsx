@@ -52,7 +52,7 @@ const About = () => {
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <span className=" font-extrabold text-5xl text-zinc-500" ref={el} />
+        <span className=" font-extrabold text-xl md:text-5xl text-zinc-500" ref={el} />
           <video autoPlay loop muted playsInline className="object-cover object-center rounded mt-4">
             <source src="https://res.cloudinary.com/dh6ipg8bj/video/upload/v1727117832/Negro_y_Blanco_Comercial_Inmobiliaria_Video_de_Presentaci%C3%B3n_rmnoo2.mp4" type="video/mp4" />
           </video>
